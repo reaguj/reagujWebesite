@@ -26,11 +26,11 @@
 
 <head>
 	<meta charset="utf-8"/>
-	<title>default</title>
-	<meta name="description" content="default" />
-	<meta name="keywords" content="default" />
+	<title>Aktualności - #reaguj</title>
+	<meta name="description" content="Aktualności dotyczące naszej kampanii. Tutaj dowiesz się co się u nas dzieje ;)" />
+	<meta name="keywords" content="pierwsza pomoc, aktualności, newsy,#reaguj" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<!-- <meta name="author" content="default"> -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
 </head>
 
@@ -45,6 +45,7 @@
 			$title= $row['Title'];
 			$content=$row['Content'];
 			$date = $row['Date'];
+			$img = $row['imgFileName'];
 			
 			$post = "<p><b><h2>$title</h2></b></p></br><p>$content</p><br/>$date<br/><br/><br/>";
 			
