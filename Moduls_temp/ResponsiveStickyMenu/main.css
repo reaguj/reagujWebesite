@@ -10,7 +10,7 @@ html {
 .nav {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
-    
+
     line-height: 70px;
 	height: auto;
   min-height: 70px;
@@ -52,27 +52,17 @@ label {
     .menu {
         text-align: center;
         width: 100%;
-        display: #eeeeee;
+        display: none;
     }
     .menu a {
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
-     
+
     }
     #toggle:checked + .menu {
         display: block;
     }
-    
-    
+
+
 }
-
-
-
-
-
-
-
-
-
-
