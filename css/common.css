@@ -1,11 +1,21 @@
 :root
 {
+  --main-bg-color: #ffffff;
+	--StickyMenu-bg-color: #ed7878;
+	--Red-bg-color: #ed7171;
+	--Red-text-color: #fefffe;
+	--Blue-bg-color: #89a6d2;
+	--Blue-text-color: #fefffe;
+	--Green-bg-color: #70b55c;
+	--Green-text-color: #fefffe;
+	--footer-bg-color: #343643;
+	--footer-text-color: #d1d1d4;
 
 }
 
 body, html
 {
-
+  background-color: var(--main-bg-color);
 }
 
 html
@@ -21,7 +31,7 @@ a
 
 #StickyMenu
 {
-
+  background-color: var(--StickyMenu-bg-color);
 }
 
 #logo
@@ -34,6 +44,25 @@ a
 
 }
 
+#Red
+{
+	background-color: var(--Red-bg-color);
+	color: var(--Red-text-color);
+}
+
+#Blue
+{
+	background-color: var(--Blue-bg-color);
+	color: var(--Blue-text-color);
+	
+}
+
+#Orange
+{
+	background-color: var(--Green-bg-color);
+	color: var(--Green-text-color);
+}
+
 .MenuBg
 {
   display: none;
@@ -42,4 +71,10 @@ a
 .TitleText
 {
 
+}
+
+.Footer
+{
+	background-color: var(--footer-bg-color);
+	color: var(--footer-text-color);
 }
