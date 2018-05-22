@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/Home.css">
+	<link rel="stylesheet" href="css/scrollbar.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;subset=latin-ext" rel="stylesheet">
 
 	<meta name="description" content="Aktualności dotyczące naszej kampanii. Tutaj dowiesz się co się u nas dzieje ;)" />
@@ -21,35 +22,34 @@
 
 	<div id="StickyMenu">
 		<div id="logo">
-			#reaguj
+			<a href="index.html">
+				#reaguj
+			</a>
 		</div>
 		<label for="toggle">&#9776;</label>
 		<input type="checkbox" id="toggle"/>
-	</div>
-	<div id="HamburgerMenu">
-		<div class="Options">                 <!--Co tu ma być?-->
-			<a href="#">Jak reagować</a>
-			<a href="#">Nasze prelekcje</a>
-			<a href="#">Kontakt</a>
-			<a href="#">Aktualności</a>
-			<a href="#">Tak o nas mówią</a>
-			<a href="#">O nas</a>
-			<a href="#">Strona główna</a>
-		</div>
-		<div class="MenuBg">
+
+			<div class="Options">                 <!--Co tu ma być?-->
+				<a href="#" id="home">Strona główna</a>
+				<a href="#">Jak reagować</a>
+				<a href="#" class="Hidden">Nasze prelekcje</a>
+				<a href="#">Kontakt</a>
+				<a href="#" class="Hidden">Aktualności</a>
+				<a href="#">Tak o nas mówią</a>
+				<a href="#">O nas</a>
 		</div>
 	</div>
 	<div id="Slides">
-		<script>		</script>
 			<div class="slide" id="Slide1">
-				<div id="Content">
-					<img src="test.jpg" id="HeartLineArt"/>
+				<div Class="Content">
+					<img src="img/common/pulse.svg" id="HeartLineArt"/>
 					<span class="MainTitle">
+						Reaguj razem z nami!
 					</span>
 					<span class="TextContent">
 					</span>
+					<img src="test.jpg" id="Background"/>
 				</div>
-				<img src="test.jpg" id="Background"/>
 			</div>
 			<div class="slide" id="Slide2">
 				<div class="SlideTitle">
@@ -133,7 +133,7 @@
 					</span>
 				</div>
 			</div>
-	</div>
+	</section>
 	<div class="Footer">
 		<div class="icons">								<!--Czy dać div?-->
 			<div class="contact">

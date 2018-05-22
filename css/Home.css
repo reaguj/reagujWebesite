@@ -1,0 +1,29 @@
+#HeartLineArt
+{
+  display: none;
+}
+
+.MainTitle
+{
+    color: var(--main-hicontrast-text-color) !important;
+}
+
+#Background
+{
+  position: relative;
+  z-index: 1;
+  top:-4em;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@media only screen and (max-width:640px)
+{
+  #HeartLineArt
+  {
+    display: block;
+  }
+}
