@@ -16,12 +16,33 @@
   height: 100vh;
 }
 
-#Slide1
+#WelcomeSlide
 {
   height: 100vh;
 }
 
-#Slide1>.Content
+#YtSlide>.flexContainer
+{
+  justify-content: space-evenly;
+}
+
+.ytVideo
+{
+  border-radius: 25px;
+}
+
+.textContainer
+{
+  background-color: var(--Red-color);
+  border-radius: 25px;
+  flex-basis: 30%;
+  font-size: 20pt;
+  color: var(--main-hicontrast-text-color);
+  padding: 20px 20px 20px 20px;
+  max-height: 630px;
+}
+
+#WelcomeSlide>.Content
 {
   font-size: 20pt;
   font-weight: 700;
@@ -34,9 +55,24 @@
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-  }
+}
+#Red
+{
+  background-color: var(--Red-color);
+}
 
-
+#Blue
+{
+  background-color: var(--Blue-color);
+}
+#Yellow
+{
+  background-color: var(--Yellow-color);
+}
+#Green
+{
+  background-color: var(--Green-color);
+}
 @media only screen and (max-width:640px)
 {
   #HeartLineArt

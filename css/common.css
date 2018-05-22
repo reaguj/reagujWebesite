@@ -124,27 +124,7 @@ div
 .flexInsideSlide
 {
   flex-direction: row;
-}
-
-#YtSlide>.flexContainer
-{
   justify-content: space-evenly;
-}
-
-.ytVideo
-{
-  border-radius: 25px;
-}
-
-#textContainer
-{
-  background-color: var(--Red-color);
-  border-radius: 25px;
-  flex-basis: 30%;
-  font-size: 20pt;
-  color: var(--main-hicontrast-text-color);
-  padding: 20px 20px 20px 20px;
-  max-height: 630px;
 }
 
 .Slides
@@ -218,7 +198,9 @@ div
   display: none;
 }
 
-Footer
+
+
+footer
 {
 	background-color: var(--footer-bg-color);
 	color: var(--footer-text-color);
