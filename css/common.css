@@ -118,6 +118,11 @@ div
   margin: 10px 0 0 0;
 }
 
+.Slides
+{
+  display: flex;
+}
+
 .slide
 {
   margin: 10px 0 0 0;
@@ -125,7 +130,7 @@ div
 
 .slide:first-child
 {
-  margin: 0;
+  margin: -10px 0 0 0;
 }
 
 .MenuBg
@@ -166,7 +171,7 @@ div
 
 .Hidden
 {
-  //display: none;
+  display: none;
 }
 
 Footer
