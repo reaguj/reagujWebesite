@@ -116,9 +116,40 @@ div
   margin: 10px 0 0 0;
 }
 
+.flexContainer
+{
+  display: flex;
+}
+
+.flexInsideSlide
+{
+  flex-direction: row;
+}
+
+#Slide2>.flexContainer
+{
+  justify-content: space-evenly;
+}
+
+.ytVideo
+{
+  border-radius: 25px;
+}
+
+#textContainer
+{
+  background-color: var(--Red-color);
+  border-radius: 25px;
+  flex-basis: 30%;
+  font-size: 20pt;
+  color: var(--main-hicontrast-text-color);
+  padding: 20px 20px 20px 20px;
+}
+
 .Slides
 {
   display: flex;
+  align-items: flex-start;
 }
 
 .slide
@@ -129,6 +160,20 @@ div
 .slide:first-child
 {
   margin: -10px 0 0 0;
+}
+
+.slideTitle
+{
+  font-size: 36pt;
+  font-weight: 400;
+  color: var(--main-regular-text-color);
+  margin: 0 0 30px 0;
+}
+
+.underline
+{
+  border-bottom: 4px solid var(--Red-color);
+  padding: 0 0 0 100px;
 }
 
 .MenuBg

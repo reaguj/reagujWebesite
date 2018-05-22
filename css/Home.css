@@ -16,6 +16,11 @@
   height: 100vh;
 }
 
+#Slide1
+{
+  height: 100vh;
+}
+
 #Slide1>.Content
 {
   font-size: 20pt;
