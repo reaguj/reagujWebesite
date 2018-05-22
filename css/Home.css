@@ -7,6 +7,7 @@
 {
   color: var(--main-hicontrast-text-color);
   font-size: 40pt;
+  padding: 0 0 5px 0;
 }
 
 #Background
