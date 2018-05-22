@@ -33,6 +33,7 @@
 
 .textContainer
 {
+  text-align: justify;
   background-color: var(--Red-color);
   border-radius: 25px;
   flex-basis: 30%;
@@ -44,6 +45,7 @@
 
 #WelcomeSlide>.Content
 {
+  text-align: justify;
   font-size: 20pt;
   font-weight: 700;
   position: relative;
