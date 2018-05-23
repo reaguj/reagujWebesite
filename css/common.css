@@ -90,20 +90,20 @@ div
   color: #f8f8f8;
 }
 
-#Red
+.Red
 {
 	background-color: var(--Red-bg-color);
 	color: var(--Red-text-color);
 }
 
-#Blue
+.Blue
 {
 	background-color: var(--Blue-bg-color);
 	color: var(--Blue-text-color);
 
 }
 
-#Orange
+.Green
 {
 	background-color: var(--Green-bg-color);
 	color: var(--Green-text-color);
@@ -167,10 +167,6 @@ div
   font-size: 20pt;
 }
 
-.Content
-{
-  z-index: 1;
-}
 .Options
 {
   display: flex;
@@ -198,7 +194,30 @@ div
   display: none;
 }
 
+.InfoRectangle
+{
+  flex-basis: 30%;
+  border-radius: 25px;
+  padding: 10px;
+}
 
+.Red
+{
+  background-color: var(--Red-color);
+}
+
+.Blue
+{
+  background-color: var(--Blue-color);
+}
+.Yellow
+{
+  background-color: var(--Yellow-color);
+}
+.Green
+{
+  background-color: var(--Green-color);
+}
 
 footer
 {
@@ -237,10 +256,6 @@ footer
   #toggle:checked + .menu
   {
     display: block;
-  }
-  #content
-  {
-    z-index: 0;
   }
 
 }

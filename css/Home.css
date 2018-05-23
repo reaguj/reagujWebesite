@@ -34,7 +34,7 @@
 .textContainer
 {
   text-align: justify;
-  background-color: var(--Red-color);
+  //background-color: var(--Red-color);
   border-radius: 25px;
   flex-basis: 30%;
   font-size: 20pt;
@@ -58,23 +58,51 @@
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-#Red
+
+#InfoSlide >.flexContainer
 {
-  background-color: var(--Red-color);
+  justify-content: evenly-space;
+}
+.fil0
+{
+  fill: white;
+}
+.InfoRectangle>.Content
+{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  font-size: 20pt;
+  color: #ffffff;
+}
+.InfoRectangle>.Content>img
+{
+  width: 333px;
+  height: 333px;
 }
 
-#Blue
+.RectangleTitle
 {
-  background-color: var(--Blue-color);
+  font-size: 28pt;
+  font-weight: 700;
+  padding: 0 0 10px 0;
 }
-#Yellow
+
+#NewsSlide > .Content
 {
-  background-color: var(--Yellow-color);
+  text-align: justify;
+  color: #ffffff;
+  border-radius: 25px;
+  width: 40%;
+  margin: 0 30% 0 30%;
 }
-#Green
+#NewsSlide>img
 {
-  background-color: var(--Green-color);
+  width: 100%;
+  border-radius: 25px 25px 0 0;
 }
+
 @media only screen and (max-width:640px)
 {
   #HeartLineArt
