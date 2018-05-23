@@ -218,11 +218,35 @@ div
 {
   background-color: var(--Green-color);
 }
-
+.icons
+{
+  display: flex;
+  font-size: 100pt;
+  color: var(--main-hicontrast-text-color);
+  justify-content: space-evenly;
+  //align-items: center;
+  //align-content: center;
+}
+.contactTile
+{
+  transition: color 0.25s, background-color 0.25s;
+}
+.contactTile:hover
+{
+  color: #A0BFff;
+  //background-color: #444653;
+  cursor: pointer;
+}
+.mail
+{
+  color: var(--main-hicontrast-text-color);
+  font-size: 24pt;
+}
 footer
 {
 	background-color: var(--footer-bg-color);
 	color: var(--footer-text-color);
+  text-align: center;
 }
 
 #home
