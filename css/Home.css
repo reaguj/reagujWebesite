@@ -143,6 +143,10 @@
 {
   #HeartLineArt
   {
-    display: block;
+    display: none;
+  }
+  .MainTitle
+  {
+    font-size: 16pt;
   }
 }
