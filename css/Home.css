@@ -83,9 +83,13 @@
 
 .RectangleTitle
 {
-  font-size: 28pt;
+  font-size: 24pt;
   font-weight: 700;
   padding: 0 0 10px 0;
+}
+.InfoRectangle>.Content>.RectangleTitle
+{
+  text-align: center;
 }
 
 #NewsSlide > .Content
