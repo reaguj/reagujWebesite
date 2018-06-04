@@ -137,8 +137,8 @@
   float: right;
   display: block;
   text-align: justify;
-  margin: 0 20px 0 0;
-  padding: 0 20px 0 50px;
+  margin: 0;
+  padding: 0 25px 0 25px;
   font-size: 18pt;
 }
 @media only screen and (max-width:900px)
@@ -190,5 +190,50 @@
   .fil0
   {
     fill: white;
+  }
+
+  .InfoRectangle>.Content
+  {
+    font-size: 12pt;
+  }
+  .RectangularSideBar
+  {
+    background-color: var(--Red-color);
+    padding: 10px;
+    margin: 25px 25px 50px 25px;
+    color: var(--main-hicontrast-text-color);
+    font-size: 20pt;
+    border-radius: 20px 20px 20px 20px;
+    flex-basis: auto;
+    width: auto;
+    text-align: justify;
+  }
+  .textContainer
+  {
+    text-align: justify;
+    //background-color: var(--Red-color);
+    border-radius: 25px;
+    font-size: 16pt;
+    color: var(--main-hicontrast-text-color);
+    padding: 10px;
+    margin: 0 25px 10px 25px;
+  }
+  .InfoRectangle>.Content>img
+  {
+    width: 200px;
+  }
+
+  #NewsSlide > .Content
+  {
+    text-align: justify;
+    color: #ffffff;
+    border-radius: 25px;
+    max-width: none;
+    margin: 10px 25px 10px 25px;
+  }
+  #NewsSlide>.Content>.RectangleTitle
+  {
+    font-size: 18pt;
+    margin: 10px 0 0 0;
   }
 }

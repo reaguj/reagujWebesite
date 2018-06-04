@@ -325,6 +325,15 @@ footer
     //align-content: center;
   }
 
+  .InfoRectangle
+  {
+    margin: 0 25px 50px 25px;
+  }
+  .copyright
+  {
+    font-size: 8pt;
+  }
+
 }
 
 @media (max-width: 1600px)
