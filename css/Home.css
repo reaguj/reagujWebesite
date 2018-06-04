@@ -40,7 +40,7 @@
   font-size: 20pt;
   color: var(--main-hicontrast-text-color);
   padding: 20px 20px 20px 20px;
-  max-height: 630px;
+  //max-height: 630px;
 }
 
 #WelcomeSlide>.Content
@@ -97,7 +97,7 @@
   text-align: justify;
   color: #ffffff;
   border-radius: 25px;
-  width: 40%;
+  max-width: 40%;
   margin: 25px 30% 0 30%;
 }
 #NewsSlide>.Content>.content
@@ -113,6 +113,7 @@
 {
   border-bottom: 4px solid var(--Yellow-color);
 }
+
 #EpidemyArticleSlide>.flexContainer
 {
   margin: 40px 0 0 0;
@@ -129,24 +130,65 @@
   color: var(--main-hicontrast-text-color);
   font-size: 24pt;
   border-radius: 20px 0 0 20px;
-  float: left;
+  float: right;
 }
 .EpidemyTextContent
 {
-  float: left;
+  float: right;
   display: block;
   text-align: justify;
   margin: 0 20px 0 0;
   padding: 0 20px 0 50px;
+  font-size: 18pt;
 }
-@media only screen and (max-width:640px)
+@media only screen and (max-width:900px)
 {
   #HeartLineArt
   {
-    display: none;
+    display: block;
+    width: 250%;
+    margin: 0% 0 0 -103%;
   }
+  #WelcomeSlide>.Content
+  {
+    text-align: justify;
+    font-size: 16pt;
+    font-weight: 700;
+    position: relative;
+    top: -92vh;
+    margin: 0% 5% 0 20%;
+    color: var(--main-hicontrast-text-color);
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .textContainer
+  {
+    text-align: justify;
+    //background-color: var(--Red-color);
+    border-radius: 25px;
+    font-size: 20pt;
+    color: var(--main-hicontrast-text-color);
+    padding: 20px 20px 20px 20px;
+  }
+
+  .ytVideo
+  {
+    margin: 25px 0 0 0;
+    width: 75vw;
+    height: auto;
+  }
+
   .MainTitle
   {
-    font-size: 16pt;
+    font-size: 20pt;
+    margin: -5% 0 0 -20%;
+  }
+  .fil0
+  {
+    fill: white;
   }
 }

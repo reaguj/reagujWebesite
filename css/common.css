@@ -221,7 +221,7 @@ div
 .icons
 {
   display: flex;
-  font-size: 100pt;
+  font-size: 80pt;
   color: var(--main-hicontrast-text-color);
   justify-content: space-evenly;
   //align-items: center;
@@ -241,12 +241,15 @@ div
 {
   color: var(--main-hicontrast-text-color);
   font-size: 24pt;
+  margin: 10px 0 10px 0;
 }
 footer
 {
 	background-color: var(--footer-bg-color);
 	color: var(--footer-text-color);
   text-align: center;
+  padding: 0 0 20px 0;
+  margin: 20px 0 0 0;
 }
 
 #home
@@ -263,13 +266,16 @@ footer
       display:block;
       cursor: pointer;
   }
+
   .Options
   {
     text-align: center;
     width: 100%;
     display: none;
     z-index: 100;
+    margin: 0 0 0 10px;
   }
+
   .Options a
   {
     display: block;
@@ -280,6 +286,43 @@ footer
   #toggle:checked + .menu
   {
     display: block;
+  }
+
+  .flexContainer
+  {
+    flex-direction: column;
+  }
+
+  .slideTitle
+  {
+    font-size: 19pt;
+  }
+
+  .underline
+  {
+    padding: 0 0 0 25px;
+  }
+
+  .crop
+  {
+    display: block;
+    width: 85%;
+    margin: 0 0 0 -20%;
+  }
+
+  .mail
+  {
+    font-size: 16pt;
+  }
+
+  .icons
+  {
+    display: flex;
+    font-size: 30pt;
+    color: var(--main-hicontrast-text-color);
+    justify-content: space-evenly;
+    //align-items: center;
+    //align-content: center;
   }
 
 }
