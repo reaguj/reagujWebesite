@@ -263,7 +263,7 @@ footer
   label
   {
       font-size: 30pt;
-      display:block;
+      display: block;
       cursor: pointer;
   }
 
@@ -272,7 +272,6 @@ footer
     text-align: center;
     width: 100%;
     display: none;
-    z-index: 100;
     margin: 0 0 0 10px;
   }
 
@@ -281,11 +280,10 @@ footer
     display: block;
     border-bottom: 1px solid #EAEAEB;
     margin:0;
-    z-index: 100;
   }
   #toggle:checked + .menu
   {
-    display: block;
+    display: flex;
   }
 
   .flexContainer
