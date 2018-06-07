@@ -1,3 +1,35 @@
+<?php
+
+	require_once "connect.php";
+
+	$connect = mysqli_connect($host,$db_user,$db_password,$db_name);
+
+	if($connect->connect_errno!=0)
+	{
+		echo "Error: ".$connect->connect_errno;
+	}
+	mysqli_query($connect, "SET CHARSET utf8");
+	mysqli_query($connect, "SET NAMES 'utf8' COLLATE 'utf8_polish_ci'");
+  mysqli_select_db($connect, $db_name);
+
+	$query="SELECT * FROM posty ORDER BY id DESC LIMIT 1";
+
+	$result = mysqli_query($connect, $query);
+
+	$postsNumber=mysqli_num_rows($result);
+
+	if($postsNumber>=1)
+	{
+		$row= mysqli_fetch_assoc($result);
+		$title= $row['Title'];
+		$content=$row['Content'];
+		$img = $row['imgFileName'];
+
+		$result->close();
+		$connect->close();
+	}
+?>
+
 <!DOCTYPE HTML>
 <html lang="pl">
 
@@ -93,7 +125,9 @@
 			<div class="slide" id="NewsSlide">
 				<div class="slideTitle"><span class="underline">Najnowsze aktualności</span></div>
 				<div Class="Content Blue">
-					<img src="test.jpg" alt="elo"/>
+					<?php
+						echo '<img src="img/blog/'.$img.'" alt=";-;"/>';
+					?>
 					<div class="RectangleTitle"><span class="underline">
 						<?php
 							echo $title;

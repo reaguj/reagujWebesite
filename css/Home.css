@@ -141,6 +141,11 @@
   padding: 0 25px 0 25px;
   font-size: 18pt;
 }
+.RectangleTextContent
+{
+  font-size: 16pt;
+}
+
 @media only screen and (max-width:900px)
 {
   #HeartLineArt
