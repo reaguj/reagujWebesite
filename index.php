@@ -85,7 +85,7 @@
 						Reaguj razem z nami!
 					</div>
 					<div class="TextContent">
-						Nasz projekt powstał, aby zwrócić uwagę polaków na problem tak zwanej znieczulicy, o której coraz częściej się słyszy w mediach. Poprzez serię filmów, grafik i prelekcji mamy na celu poprawić wiedzę polaków w zakresie świadomości na temat pierwszej pomocy.
+						Nasz projekt powstał, aby zwrócić uwagę Polaków na problem tak zwanej znieczulicy, o której coraz częściej się słyszy w mediach. Poprzez serię filmów, grafik i prelekcji mamy na celu poprawić wiedzę polaków w zakresie świadomości na temat pierwszej pomocy.
 					</div>
 				</div>
 			</div>
