@@ -177,9 +177,10 @@
 
   .ytVideo
   {
-    margin: 25px 0 0 0;
-    width: 75vw;
-    height: auto;
+    margin: 25px auto 0 auto;
+    width: 75%;
+    height: 75%;
+
   }
 
   .MainTitle
