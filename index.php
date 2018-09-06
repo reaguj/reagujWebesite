@@ -35,6 +35,7 @@
 
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="cookie_agreement.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120627207-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
