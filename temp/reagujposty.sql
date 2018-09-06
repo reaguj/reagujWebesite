@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 15 Kwi 2018, 20:23
+-- Czas generowania: 06 Wrz 2018, 19:18
 -- Wersja serwera: 10.1.28-MariaDB
 -- Wersja PHP: 7.1.11
 
@@ -42,8 +42,8 @@ CREATE TABLE `posty` (
 --
 
 INSERT INTO `posty` (`ID`, `Title`, `Content`, `Date`, `Autor`, `imgFileName`) VALUES
-(1, 'Prelekcja w zadupiu małym', 'Tak było :p', '2018-04-15 15:34:36', 'Ja', ''),
-(2, 'drugi post xD', 'Znowu tak było lol', '2018-04-15 15:34:36', 'Też ja', '');
+(1, 'Prelekcja w zadupiu małym', 'Tak było :p', '2018-04-15 15:34:36', 'Ja', 'test.jpg'),
+(2, 'drugi post xD', 'Znowu tak było lol', '2018-04-15 15:34:36', 'Też ja', 'test2.jpg');
 
 --
 -- Indeksy dla zrzutów tabel
