@@ -68,7 +68,7 @@
 	<div id="StickyMenu">
 
 		<div id="logo">
-			<a href="index.html">
+			<a href="index.php">
 				#reaguj
 			</a>
 		</div>
