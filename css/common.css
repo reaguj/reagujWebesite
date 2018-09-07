@@ -204,19 +204,23 @@ div
 .Red
 {
   background-color: var(--Red-color);
+  color:var(--main-hicontrast-text-color);
 }
 
 .Blue
 {
   background-color: var(--Blue-color);
+  color:var(--main-hicontrast-text-color);
 }
 .Yellow
 {
   background-color: var(--Yellow-color);
+  color:var(--main-hicontrast-text-color);
 }
 .Green
 {
   background-color: var(--Green-color);
+  color:var(--main-hicontrast-text-color);
 }
 .icons
 {
@@ -243,6 +247,14 @@ div
   font-size: 24pt;
   margin: 10px 0 10px 0;
 }
+
+.textRectangle
+{
+  padding: 15px;
+  text-align: justify;
+  border-radius: 25px;
+}
+
 footer
 {
 	background-color: var(--footer-bg-color);

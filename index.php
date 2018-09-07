@@ -77,7 +77,7 @@
 		<label for="toggle">&#9776;</label>
 		<input type="checkbox" id="toggle"/>
 
-			<div class="Options">                 <!--Co tu ma być?-->
+			<div class="Options">
 				<a href="#" id="home">Strona główna</a>
 				<a href="#">Jak reagować</a>
 				<a href="#" class="Hidden">Nasze prelekcje</a>
@@ -166,7 +166,7 @@
 			</div>
 	</div>
 	<footer>
-		<div class="icons">								<!--Czy dać div?-->
+		<div class="icons">
 			<div class="contactTile">
 				<i class="fab fa-instagram"></i>
 			</div>
@@ -187,7 +187,6 @@
 		<div class="copyright">
 			&copy; 2018 #reaguj. Wszystkie prawa zastrzeżone
 		</div>
-														<!--Czy dać Rectangle footer?-->
 	</div>
 
 </body>
