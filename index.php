@@ -113,7 +113,7 @@
 				<div class="flexContainer flexInsideSlide">
 					<div class="InfoRectangle Red">
 							<div class="Content">
-								<img src="img/common/hearticon.svg" alt="Pieseł" class="InfoRectangleImg">
+								<img src="img/common/hearticon.svg" alt=";-;" class="InfoRectangleImg">
 								<div class="RectangleTitle">Pomoc wraca</div>
 								<div class="RectangleTextContent">Warto pomagać innym. Każdy z nas może znależć się w potrzebie i będziemy oczekiwać pomocy od reszty społeczeństwa. Zawsze możemy liczyć na większą pomoc jeśli zostaniemy dobrze zapamiętani przez innych.</div>
 							</div>
