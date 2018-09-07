@@ -84,7 +84,7 @@
 				<a href="contact.html">Kontakt</a>
 				<a href="#" class="Hidden">Aktualności</a>
 				<a href="#">Tak o nas mówią</a>
-				<a href="#">O nas</a>
+				<a href="aboutUs.html">O nas</a>
 		</div>
 	</div>
 	<div id="Slides">
