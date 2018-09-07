@@ -1,41 +1,8 @@
-<?php
-
-	require_once "connect.php";
-
-	$connect = mysqli_connect($host,$db_user,$db_password,$db_name);
-
-	if($connect->connect_errno!=0)
-	{
-		echo "Error: ".$connect->connect_errno;
-	}
-	mysqli_query($connect, "SET CHARSET utf8");
-	mysqli_query($connect, "SET NAMES 'utf8' COLLATE 'utf8_polish_ci'");
-  mysqli_select_db($connect, $db_name);
-
-	$query="SELECT * FROM posty ORDER BY id DESC LIMIT 1";
-
-	$result = mysqli_query($connect, $query);
-
-	$postsNumber=mysqli_num_rows($result);
-
-	if($postsNumber>=1)
-	{
-		$row= mysqli_fetch_assoc($result);
-		$title= $row['Title'];
-		$content=$row['Content'];
-		$img = $row['imgFileName'];
-
-		$result->close();
-		$connect->close();
-	}
-?>
-
 <!DOCTYPE HTML>
 <html lang="pl">
 
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script src="cookie_agreement.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120627207-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -113,7 +80,7 @@
 				<div class="flexContainer flexInsideSlide">
 					<div class="InfoRectangle Red">
 							<div class="Content">
-								<img src="img/common/hearticon.svg" alt=";-;" class="InfoRectangleImg">
+								<img src="img/common/hearticon.svg" alt="Pieseł" class="InfoRectangleImg">
 								<div class="RectangleTitle">Pomoc wraca</div>
 								<div class="RectangleTextContent">Warto pomagać innym. Każdy z nas może znależć się w potrzebie i będziemy oczekiwać pomocy od reszty społeczeństwa. Zawsze możemy liczyć na większą pomoc jeśli zostaniemy dobrze zapamiętani przez innych.</div>
 							</div>
@@ -137,19 +104,13 @@
 			<div class="slide" id="NewsSlide">
 				<div class="slideTitle"><span class="underline">Najnowsze aktualności</span></div>
 				<div Class="Content Blue">
-					<?php
-						echo '<img src="img/blog/'.$img.'" alt=";-;"/>';
-					?>
+					
 					<div class="RectangleTitle"><span class="underline">
-						<?php
-							echo $title;
-						?>
+						
 					</span></div>
 					<div class="content">
 						<div class="RectangleTextContent">
-							<?php
-								echo $content;
-							?>
+							
 						</div>
 					</div>
 				</div>
