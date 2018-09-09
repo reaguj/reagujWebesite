@@ -120,14 +120,14 @@
 						</div>
 					<div Class="Blue InfoRectangle">
 							<div class="Content">
-								<img src="img/common/icon-satisfaction.svg" alt="Pieseł" class="InfoRectangleImg">
+								<img src="img/common/icon-satisfaction.svg" alt=";-;" class="InfoRectangleImg">
 								<div class="RectangleTitle">Daje niezwykłą satysfakcje</div>
 								<div class="RectangleTextContent">Każdy z nas na pewno był z siebie dumny kiedy udało mu się osiągnąć cel nad którym bardzo długo pracowaliśmy. Można sobie tylko wyobrazić jak będziemy zadowoleni, kiedy uratujemy komuś życie, największą wartość każdego z nas.</div>
 							</div>
 						</div>
 					<div class="Green InfoRectangle">
 							<div class="Content">
-								<img src="img/common/icon-safe-world.svg" alt="Pieseł" class="InfoRectangleImg">
+								<img src="img/common/icon-safe-world.svg" alt=";-;" class="InfoRectangleImg">
 								<div class="RectangleTitle">Sprawia świat bezpieczniejszym</div>
 								<div class="RectangleTextContent">Chcemy żyć w lepszym świecie, a żeby to osiągnąć musimy zacząć działać. Będziemy czuć się dużo lepiej kiedy będziemy wiedzieć, że w raie czego możemy liczyć na pomoc innych osób. Będziemy żyć w bezpieczniejszym świecie, a wszystko dzięki waszemu zaangażowaniu. </div>
 							</div>
