@@ -63,10 +63,6 @@
 {
   justify-content: evenly-space;
 }
-.fil0
-{
-  fill: white;
-}
 .InfoRectangle>.Content
 {
   display: flex;
@@ -144,6 +140,18 @@
 .RectangleTextContent
 {
   font-size: 16pt;
+}
+
+/*///SVGS///*/
+
+.fil0
+{
+  fill: white;
+}
+
+.iconSatisfaction
+{
+  fill: white;
 }
 
 @media only screen and (max-width:900px)
