@@ -1,0 +1,9 @@
+.RectangleTitle>.underline
+{
+	border-bottom: 4px solid var(--Yellow-color);
+}
+
+.Content
+{
+	flex-direction: row !important;
+}
