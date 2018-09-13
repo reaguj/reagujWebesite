@@ -151,6 +151,18 @@ div
   margin: 0 0 30px 0;
 }
 
+.RectangleTextContent
+{
+  font-size: 16pt;
+}
+
+.RectangleTitle
+{
+  font-size: 24pt;
+  font-weight: 700;
+  padding: 0 0 10px 0;
+}
+
 .underline
 {
   border-bottom: 4px solid var(--Red-color);

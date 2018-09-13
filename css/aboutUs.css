@@ -3,7 +3,38 @@
 	border-bottom: 4px solid var(--Yellow-color);
 }
 
+.Content .flexContainer
+{
+	flex-direction: row;
+}
+
 .Content
 {
-	flex-direction: row !important;
+	border-radius: 25px !important;
+	width: 70vw !important;
+	text-align: justify;
+}
+
+.rightSide
+{
+	margin: 0 0 0 2vw;
+}
+.rightSide>img
+{
+	border-radius: 25px 0 0 25px;
+}
+.leftSide
+{
+	margin: 2vw 0 0 0;
+}
+
+.RectangleTextContent
+{
+	padding: 0 15px 0 15px;
+}
+
+#WelcomeSlide>.flexContainer
+{
+	flex-direction: column;
+	flex-wrap: wrap;
 }
