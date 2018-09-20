@@ -3,29 +3,49 @@
 	border-bottom: 4px solid var(--Yellow-color);
 }
 
-.Content .flexContainer
+.flexContainer .flexContainer
 {
 	flex-direction: row;
 }
 
+.flexContainer>.flexContainer>.content>.flexContainer
+{
+	flex-direction: column;
+}
+
+.rightSide>.content>.RectangleTitle>.underline
+{
+	align-self: flex-end;
+	padding: 0 100px 0 0 ;
+}
+
+.flexContainer
+{
+  display: flex;
+	flex-direction: column;
+}
 .Content
 {
-	border-radius: 25px !important;
+	width: 80vw;
 	//flex-basis: 70vw !important;
 	text-align: justify;
 }
 
 .rightSide
 {
-	margin: 0 0 0 2vw;
+	//margin: 0 0 0 20vw;
+	align-self: flex-end;
+	border-radius: 25px 0 0 25px;
 }
 .rightSide>img
 {
-	border-radius: 25px 0 0 25px;
+	order: 1000;
 }
 .leftSide
 {
-	margin: 2vw 0 0 0;
+	align-self: flex-start;
+	//margin: 0 20vw 0 0;
+	border-radius: 0 25px 25px 0;
 }
 
 .RectangleTextContent
@@ -35,6 +55,17 @@
 
 #WelcomeSlide>.flexContainer
 {
-	flex-direction: column;
+	flex-direction: column !important;
 	flex-wrap: wrap;
+}
+
+.rightSide>.content>.rectaTitle>.underline
+{
+  padding: 100px 0 0 0 !important;
+	float: right;
+}
+
+div
+{
+	//border: 1px solid red;
 }
