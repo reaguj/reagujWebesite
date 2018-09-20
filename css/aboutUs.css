@@ -11,7 +11,7 @@
 .Content
 {
 	border-radius: 25px !important;
-	width: 70vw !important;
+	//flex-basis: 70vw !important;
 	text-align: justify;
 }
 
