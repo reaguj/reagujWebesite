@@ -59,6 +59,12 @@
 	flex-wrap: wrap;
 }
 
+.Content>img
+{
+	width: 400px;
+	height: 400px;	
+}
+
 div
 {
 	//border: 1px solid red;
