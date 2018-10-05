@@ -69,3 +69,40 @@ div
 {
 	//border: 1px solid red;
 }
+
+@media only screen and (max-width: 900px)
+{
+	.flexContainer .flexContainer
+	{
+		flex-direction: column;
+		text-align: justify;
+		color: #ffffff;
+		border-radius: 25px;
+		max-width: none;
+		margin: auto;
+		padding: 0 0 10px 0;
+	}
+	.rightSide>img
+	{
+		order: 0;
+		width: 100%
+		
+	}
+	.leftSide>img
+	{
+		order: 0;
+		width: 100%
+		
+	}
+	.content>.RectangleTitle>.underline
+	{
+		font-size: 18pt;
+	}
+		
+}
+
+@media (max-width: 1600px)
+{
+	
+}
+	
