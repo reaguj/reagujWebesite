@@ -34,14 +34,15 @@
 <html lang="pl">
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120627207-1"></script>
+	
+<script src="cookie_agreement.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125728113-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-120627207-1');
+  gtag('config', 'UA-125728113-1');
 </script>
 
 
@@ -76,14 +77,14 @@
 		<label for="toggle">&#9776;</label>
 		<input type="checkbox" id="toggle"/>
 
-			<div class="Options">                 <!--Co tu ma być?-->
+			<div class="Options">
 				<a href="#" id="home">Strona główna</a>
 				<a href="#">Jak reagować</a>
 				<a href="#" class="Hidden">Nasze prelekcje</a>
-				<a href="#">Kontakt</a>
+				<a href="contact.html">Kontakt</a>
 				<a href="#" class="Hidden">Aktualności</a>
 				<a href="#">Tak o nas mówią</a>
-				<a href="#">O nas</a>
+				<a href="aboutUs.html">O nas</a>
 		</div>
 	</div>
 	<div id="Slides">
@@ -112,21 +113,21 @@
 				<div class="flexContainer flexInsideSlide">
 					<div class="InfoRectangle Red">
 							<div class="Content">
-								<img src="img/common/hearticon.svg" alt="Pieseł" class="InfoRectangleImg">
+								<img src="img/common/icon-help-returns.svg" alt=";-;" class="InfoRectangleImg">
 								<div class="RectangleTitle">Pomoc wraca</div>
 								<div class="RectangleTextContent">Warto pomagać innym. Każdy z nas może znależć się w potrzebie i będziemy oczekiwać pomocy od reszty społeczeństwa. Zawsze możemy liczyć na większą pomoc jeśli zostaniemy dobrze zapamiętani przez innych.</div>
 							</div>
 						</div>
 					<div Class="Blue InfoRectangle">
 							<div class="Content">
-								<img src="img/common/hearticon.svg" alt="Pieseł" class="InfoRectangleImg">
+								<img src="img/common/icon-satisfaction.svg" alt=";-;" class="InfoRectangleImg">
 								<div class="RectangleTitle">Daje niezwykłą satysfakcje</div>
 								<div class="RectangleTextContent">Każdy z nas na pewno był z siebie dumny kiedy udało mu się osiągnąć cel nad którym bardzo długo pracowaliśmy. Można sobie tylko wyobrazić jak będziemy zadowoleni, kiedy uratujemy komuś życie, największą wartość każdego z nas.</div>
 							</div>
 						</div>
 					<div class="Green InfoRectangle">
 							<div class="Content">
-								<img src="img/common/hearticon.svg" alt="Pieseł" class="InfoRectangleImg">
+								<img src="img/common/icon-safe-world.svg" alt=";-;" class="InfoRectangleImg">
 								<div class="RectangleTitle">Sprawia świat bezpieczniejszym</div>
 								<div class="RectangleTextContent">Chcemy żyć w lepszym świecie, a żeby to osiągnąć musimy zacząć działać. Będziemy czuć się dużo lepiej kiedy będziemy wiedzieć, że w raie czego możemy liczyć na pomoc innych osób. Będziemy żyć w bezpieczniejszym świecie, a wszystko dzięki waszemu zaangażowaniu. </div>
 							</div>
@@ -165,7 +166,7 @@
 			</div>
 	</div>
 	<footer>
-		<div class="icons">								<!--Czy dać div?-->
+		<div class="icons">
 			<div class="contactTile">
 				<i class="fab fa-instagram"></i>
 			</div>
@@ -186,7 +187,6 @@
 		<div class="copyright">
 			&copy; 2018 #reaguj. Wszystkie prawa zastrzeżone
 		</div>
-														<!--Czy dać Rectangle footer?-->
 	</div>
 
 </body>

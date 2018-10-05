@@ -151,6 +151,18 @@ div
   margin: 0 0 30px 0;
 }
 
+.RectangleTextContent
+{
+  font-size: 16pt;
+}
+
+.RectangleTitle
+{
+  font-size: 24pt;
+  font-weight: 700;
+  padding: 0 0 10px 0;
+}
+
 .underline
 {
   border-bottom: 4px solid var(--Red-color);
@@ -204,19 +216,23 @@ div
 .Red
 {
   background-color: var(--Red-color);
+  color:var(--main-hicontrast-text-color);
 }
 
 .Blue
 {
   background-color: var(--Blue-color);
+  color:var(--main-hicontrast-text-color);
 }
 .Yellow
 {
   background-color: var(--Yellow-color);
+  color:var(--main-hicontrast-text-color);
 }
 .Green
 {
   background-color: var(--Green-color);
+  color:var(--main-hicontrast-text-color);
 }
 .icons
 {
@@ -243,6 +259,14 @@ div
   font-size: 24pt;
   margin: 10px 0 10px 0;
 }
+
+.textRectangle
+{
+  padding: 15px;
+  text-align: justify;
+  border-radius: 25px;
+}
+
 footer
 {
 	background-color: var(--footer-bg-color);
@@ -250,6 +274,11 @@ footer
   text-align: center;
   padding: 0 0 20px 0;
   margin: 20px 0 0 0;
+}
+
+.clear
+{
+  clear: both;
 }
 
 #home
@@ -284,16 +313,6 @@ footer
   .flexContainer
   {
     flex-direction: column;
-  }
-
-  .slideTitle
-  {
-    font-size: 19pt;
-  }
-
-  .underline
-  {
-    padding: 0 0 0 25px;
   }
 
   .crop
