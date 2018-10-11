@@ -32,6 +32,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="icon" type="image/png" href="favicon.png">
 
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/news.css">
+	<link rel="stylesheet" href="css/scrollbar.css">
+
 </head>
 
 <body>
