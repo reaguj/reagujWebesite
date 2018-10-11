@@ -154,11 +154,18 @@
 {
 	.ytVideo
   {
-    margin: 25px auto 0 auto;
-    width: 75%;
-    height: 75%;
-
+	height: 70vh;
+    width: 70vw;
   }
+	.textContainer
+	{
+	text-align: justify;
+	border-radius: 25px;
+	flex-basis: 20%;
+	font-size: 20pt;
+	padding: 20px 20px 20px 20px;
+	}
+   
 }
 
 
