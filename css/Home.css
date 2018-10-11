@@ -150,6 +150,19 @@
   fill: white;
 }
 
+@media only screen and (max-width:1600px)
+{
+	.ytVideo
+  {
+    margin: 25px auto 0 auto;
+    width: 75%;
+    height: 75%;
+
+  }
+}
+
+
+
 @media only screen and (max-width:900px)
 {
   #HeartLineArt
@@ -247,3 +260,4 @@
     margin: 10px 0 0 0;
   }
 }
+
