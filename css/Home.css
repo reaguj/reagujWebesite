@@ -29,6 +29,8 @@
 .ytVideo
 {
   border-radius: 25px;
+  width: 60vw;
+  height: 60vh;
 }
 
 .textContainer
@@ -154,18 +156,18 @@
 {
 	.ytVideo
   {
-	height: 70vh;
+	  height: 70vh;
     width: 70vw;
   }
 	.textContainer
 	{
-	text-align: justify;
-	border-radius: 25px;
-	flex-basis: 20%;
-	font-size: 20pt;
-	padding: 20px 20px 20px 20px;
+  	text-align: justify;
+  	border-radius: 25px;
+  	flex-basis: 20%;
+  	font-size: 20pt;
+  	padding: 20px 20px 20px 20px;
 	}
-   
+
 }
 
 
@@ -209,7 +211,6 @@
     margin: 25px auto 0 auto;
     width: 75%;
     height: 75%;
-
   }
 
   .MainTitle
@@ -267,4 +268,3 @@
     margin: 10px 0 0 0;
   }
 }
-
