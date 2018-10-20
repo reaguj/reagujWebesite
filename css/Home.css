@@ -29,6 +29,8 @@
 .ytVideo
 {
   border-radius: 25px;
+  width: 60vw;
+  height: 60vh;
 }
 
 .textContainer
@@ -150,6 +152,26 @@
   fill: white;
 }
 
+@media only screen and (max-width:1600px)
+{
+	.ytVideo
+  {
+	  height: 70vh;
+    width: 70vw;
+  }
+	.textContainer
+	{
+  	text-align: justify;
+  	border-radius: 25px;
+  	flex-basis: 20%;
+  	font-size: 20pt;
+  	padding: 20px 20px 20px 20px;
+	}
+
+}
+
+
+
 @media only screen and (max-width:900px)
 {
   #HeartLineArt
@@ -189,7 +211,6 @@
     margin: 25px auto 0 auto;
     width: 75%;
     height: 75%;
-
   }
 
   .MainTitle

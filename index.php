@@ -34,16 +34,16 @@
 <html lang="pl">
 
 <head>
-	
-<script src="cookie_agreement.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125728113-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-125728113-1');
-</script>
+	<script src="cookie_agreement.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125728113-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-125728113-1');
+	</script>
 
 
 	<meta charset="utf-8"/>
@@ -79,7 +79,7 @@
 
 			<div class="Options">
 				<a href="#" id="home">Strona główna</a>
-				<a href="#">Jak reagować</a>
+				<a href="howToHelp.php">Jak reagować</a>
 				<a href="#" class="Hidden">Nasze prelekcje</a>
 				<a href="contact.html">Kontakt</a>
 				<a href="#" class="Hidden">Aktualności</a>
@@ -105,7 +105,7 @@
 				<div class="slideTitle"><span class="underline">Zobacz jak można #reagować</span></div>
 				<div class="flexContainer flexInsideSlide">
 					<div Class="textContainer Red">Nie lękajmy się pomagać innym. To nie jest wcale skomplikowane, a może uratować czyjeś życie. Spójrzmy na przykładowe zachowanie podczas pierwszej pomocy:</div>
-					<iframe class="ytVideo" width="1120" height="630" src="https://www.youtube.com/embed/jdbjUnGgYJs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe class="ytVideo" width="1120" src="https://www.youtube.com/embed/jdbjUnGgYJs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="slide" id="InfoSlide">
