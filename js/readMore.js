@@ -2,13 +2,21 @@ $(document).ready(function(){
   var shortDesc =document.getElementsByClassName('shortDesc');
   var longDesc =document.getElementsByClassName('longDesc');
 
-  /* FOR DEBUg and testing purposes
-  console.log(shortDesc);
-  console.log('xD');
-  */
+  var showMore =document.getElementsByClassName('showMore');
+  var showLess =document.getElementsByClassName('longDesc');
 
-  $('.shortDesc').html($('.shortDesc').html()+"   pokaż więcej");
-  $('.longDesc').html($('.longDesc').html()+"   pokaż mniej");
-  $('.longDesc').addClass("Hidden");
+  for(let i=0; i<shortDesc.length; i++)
+  {
+    showMore[i].addEventListener('click', function(){
+      shortDesc[i].classList.add('Hidden');
+      longDesc[i].classList.remove('Hidden');
+    });
+    showLess[i].addEventListener('click', function(){
+      longDesc[i].classList.add('Hidden');
+      shortDesc[i].classList.remove('Hidden');
+    });
+    console.log(i);
 
+  }
+    $('.longDesc').addClass("Hidden");
 });

@@ -93,7 +93,7 @@
 				$longDesc = $row['longDesc'];
 				$img = $row['img'];
 
-				$post = "<div class='Content Red'><img src='img/blog/$img' alt=';-;'/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content'><p class='shortDesc'>$shortDesc</p><p class='longDesc'>$longDesc</p></div></div>";
+				$post = "<div class='Content Red'><img src='img/blog/$img' alt=';-;'/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content'><p class='shortDesc'>$shortDesc<span class='showMore'>pokaż więcej</span></p><p class='longDesc'>$longDesc<span class='showLess'>pokaż mniej</span></p></div></div>";
 
 				echo $post;
 
