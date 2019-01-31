@@ -62,7 +62,7 @@
 .Content>img
 {
 	width: 400px;
-	height: 400px;	
+	height: 400px;
 }
 
 div
@@ -72,6 +72,19 @@ div
 
 @media only screen and (max-width: 900px)
 {
+
+	.crop
+	{
+		display: block;
+		width: 85%;
+		margin: 0 0 0 -20%;
+	}
+	#HeartLineArt
+	{
+		display: block;
+		width: 250%;
+		margin: 0% 0 0 -103%;
+	}
 	.flexContainer .flexContainer
 	{
 		flex-direction: column;
@@ -86,23 +99,22 @@ div
 	{
 		order: 0;
 		width: 100%
-		
+
 	}
 	.leftSide>img
 	{
 		order: 0;
 		width: 100%
-		
+
 	}
 	.content>.RectangleTitle>.underline
 	{
 		font-size: 18pt;
 	}
-		
+
 }
 
 @media (max-width: 1600px)
 {
-	
+
 }
-	
