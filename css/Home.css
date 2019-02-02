@@ -14,6 +14,8 @@
 {
   width: 100%;
   height: 100vh;
+  object-fit: cover;
+  object-position: 60% 0
 }
 
 #WelcomeSlide
@@ -209,7 +211,7 @@
   .ytVideo
   {
     margin: 25px auto 0 auto;
-    width: 75%;
+    width: 85%;
     height: 75%;
   }
 
