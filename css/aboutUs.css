@@ -61,8 +61,10 @@
 
 .Content>img
 {
-	width: 400px;
-	height: 400px;
+	width: auto;
+  height: 400px;
+  object-fit: cover;
+  object-position: 60% 0;
 }
 
 div
@@ -98,13 +100,13 @@ div
 	.rightSide>img
 	{
 		order: 0;
-		width: 100%
+		width: 100%;
 
 	}
 	.leftSide>img
 	{
 		order: 0;
-		width: 100%
+		width: 100%;
 
 	}
 	.content>.RectangleTitle>.underline
