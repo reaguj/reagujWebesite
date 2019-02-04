@@ -15,7 +15,6 @@ $(document).ready(function(){
       longDesc[i].classList.add('Hidden');
       shortDesc[i].classList.remove('Hidden');
     });
-    console.log(i);
 
   }
     $('.longDesc').addClass("Hidden");

@@ -345,6 +345,18 @@ footer
   {
     font-size: 8pt;
   }
+  .slideTitle
+  {
+    font-size: 23pt;
+    font-weight: 400;
+    color: var(--main-regular-text-color);
+    margin: 0 0 30px 0;
+  }
+  .underline
+  {
+    border-bottom: 4px solid var(--Red-color);
+    padding: 0 0 0 15px;
+  }
 
 }
 
@@ -355,8 +367,4 @@ footer
     max-flex-basis: 85vw;
   }
 
-  .StickyMenu
-  {
-
-  }
 }
