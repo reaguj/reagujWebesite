@@ -63,6 +63,7 @@
 {
 	width: auto;
   height: 400px;
+	max-height: 600px;
   object-fit: cover;
   object-position: 60% 0;
 }
