@@ -37,6 +37,8 @@
 <body>
 	<?php
 
+	require "nav.php";
+
 	if($postsNumber>=1)
 	{
 		for($i=$postsNumber; $i>0; $i--)
@@ -56,5 +58,7 @@
 		$result->close();
 		$connect->close();
 	}
+
+	require "footer.php";
 	?>
 </body>

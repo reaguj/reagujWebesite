@@ -11,11 +11,11 @@
 
     <div class="Options">
       <a href="index.php" id="home">Strona główna</a>
-      <a href="#">Jak reagować</a>
+      <a href="howToHelp.php">Jak reagować</a>
       <a href="#" class="Hidden">Nasze prelekcje</a>
-      <a href="contact.html">Kontakt</a>
+      <a href="contact.php">Kontakt</a>
       <a href="#" class="Hidden">Aktualności</a>
       <a href="#">Tak o nas mówią</a>
-      <a href="aboutUs.html">O nas</a>
+      <a href="aboutUs.php">O nas</a>
   </div>
 </nav>

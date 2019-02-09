@@ -36,27 +36,10 @@
 
 <body>
 
-	<div id="StickyMenu">
+<?php
+  require "nav.php";
+ ?>
 
-		<div id="logo">
-			<a href="index.php">
-				#reaguj
-			</a>
-		</div>
-
-		<label for="toggle">&#9776;</label>
-		<input type="checkbox" id="toggle"/>
-
-			<div class="Options">
-        <a href="#" id="home">Strona główna</a>
-				<a href="#">Jak reagować</a>
-				<a href="#" class="Hidden">Nasze prelekcje</a>
-				<a href="contact.html">Kontakt</a>
-				<a href="#" class="Hidden">Aktualności</a>
-				<a href="#">Tak o nas mówią</a>
-				<a href="aboutUs.html">O nas</a>
-		</div>
-	</div>
 	<div id="Slides">
 			<div class="slide" id="WelcomeSlide">
 				<img src="img/aboutUs/jankowalski.jpeg" id="Background"/>
@@ -168,30 +151,9 @@
           </div>
 
 	  </div>
-	<footer>
-		<div class="icons">
-			<div class="contactTile">
-				<i class="fab fa-instagram"></i>
-			</div>
-			<div class="contactTile">
-				<i class="fab fa-snapchat-square"></i>
-			</div>
-			<div class="contactTile">
-				<i class="fab fa-youtube"></i>
-			</div>
-			<div class="contactTile">
-				<i class="fas fa-comment-dots"></i>
-			</div>
-			<div class="contactTile">
-				<i class="fab fa-facebook-square"></i>
-			</div>
-		</div>
-		<div class="mail">kontakt.reaguj@gmail.com</div>
-		<div class="copyright">
-			&copy; 2018 #reaguj. Wszystkie prawa zastrzeżone
-		</div>
-
-	</div>
+    <?php
+      require "footer.php";
+     ?>
 
 </body>
 
