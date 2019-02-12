@@ -1,4 +1,13 @@
 .errorImg
 {
-  width: 75vw;
+  width: 37.25vw;
+  height: auto;
+}
+.error
+{
+
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+
 }
