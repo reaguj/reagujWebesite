@@ -41,16 +41,16 @@
     require "nav.php";
    ?>
   <div class="slideTitle"><span class="underline">Jak się z nami skontaktować?</span></div>
-<div class="contact">
+
  <div class="contactContent">
-    <div class="contactTitle">Mail główny:</div>
-	<div class="textContainer Red">kontakt.reaguj@gmail.com</div>
-	<div class="contactTitle">Mail dla partnerów:</div>
-<div class="textContainer Red">spam@reaguj.eu</div>
-	<div class="contactTitle">Możecie do nas pisać też na Facebook-u:</div>
-	<div class="textContainer Red">link</div>
+    <div class="contentTitle"><div class="contactTitle">Mail główny:</div>
+	<div class="textContainer Red">kontakt.reaguj@gmail.com</div></div>
+	<div class="contentTitle"><div class="contactTitle">Mail dla partnerów:</div>
+<div class="textContainer Red">spam@reaguj.eu</div></div>
+	<div class="contentTitle"><div class="contactTitle">Możecie do nas pisać też na Facebook-u:</div>
+	<div class="textContainer Red">link</div></div>
  </div>
-</div>
+
 
 <?php
   require "footer.php";
