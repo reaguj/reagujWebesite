@@ -59,17 +59,17 @@ div
 
 #StickyMenu
 {
-  z-index: 1000;
   background: var(--StickyMenu-bg);
   color: var(--main-hicontrast-text-color);
   top: 0;
   position: sticky;
   display: flex;
   justify-content: space-around;
-  padding: 0 0 0 0;
+  padding: 0;
   width: 100%;
   align-items: baseline;
   margin: 0 0 10px;
+  z-index: 1000;
 
   min-width: 10%;
 
@@ -82,12 +82,12 @@ div
 {
   font-family: 'Coolvetica', sans-serif;
   font-size: 30pt;
-  transition: color 0.25s;
+  transition: color 0.3s;
 }
 
 #logo:hover
 {
-  color: #f8f8f8;
+  color: #E9E9E9;
 }
 
 .Red
@@ -182,23 +182,20 @@ div
 .Options
 {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
   font-size: 18pt;
-  flex-basis: 50vw;
   font-weight: 700;
 }
 
 .Options> a
 {
-  padding: 13px 2px 8px 2px;
-  transition: border-bottom 0.25s, padding 0.25s, background-color 0.25s;
+  padding: 13px 20px 8px 20px;
+  border-bottom: 0px solid #FFFFFF;
+  transition: border-width 0.3s, padding-bottom 0.3s;
 }
 .Options>a:hover
 {
-  border-bottom: 3px solid #FFFFFF;
-  padding: 13px 2px 5px 2px;
-  background-color: #f8beb9;
+  border-bottom: 5px solid #FFFFFF;
+  padding: 13px 20px 3px 20px;
 }
 
 .Hidden
