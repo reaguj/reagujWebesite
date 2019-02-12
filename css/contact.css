@@ -1,0 +1,23 @@
+.contact
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.contactContent
+{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contactTitle
+{
+	font-size: 25pt;
+	font-weight: 400;
+	color: var(--main-regular-text-color);
+	margin: 0 0 30px 0;
+}

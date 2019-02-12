@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/Home.css">
 	<link rel="stylesheet" href="css/scrollbar.css">
+	<link rel="stylesheet" href="css/contact.css">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;subset=latin-ext" rel="stylesheet">
@@ -40,9 +41,16 @@
     require "nav.php";
    ?>
   <div class="slideTitle"><span class="underline">Jak się z nami skontaktować?</span></div>
-  <div class="flexContainer">
-    <div class="textRectangle Red">Mail: spam@reaguj.eu</div>
-  </div>
+<div class="contact">
+ <div class="contactContent">
+    <div class="contactTitle">Mail główny:</div>
+	<div class="textContainer Red">kontakt.reaguj@gmail.com</div>
+	<div class="contactTitle">Mail dla partnerów:</div>
+<div class="textContainer Red">spam@reaguj.eu</div>
+	<div class="contactTitle">Możecie do nas pisać też na Facebook-u:</div>
+	<div class="textContainer Red">link</div>
+ </div>
+</div>
 
 <?php
   require "footer.php";
