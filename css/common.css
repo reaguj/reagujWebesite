@@ -64,12 +64,14 @@ div
   top: 0;
   position: sticky;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 0;
   width: 100%;
-  align-items: baseline;
+  //align-items: baseline;
   margin: 0 0 10px;
   z-index: 1000;
+  transition: 1s;
 
   min-width: 10%;
 
@@ -294,10 +296,18 @@ footer
 
   .Options
   {
-    text-align: center;
-    width: 100%;
     display: none;
-    margin: 0 0 0 10px;
+    height: 0;
+    transition: height 1s;
+  }
+
+  .OptionsVisible
+  {
+    border-top: 1px solid #EAEAEB;
+    display: block;
+    transition: 1s;
+    width: 100vw;
+    height: 100vh;
   }
 
   .Options a
@@ -305,6 +315,13 @@ footer
     display: block;
     border-bottom: 1px solid #EAEAEB;
     margin:0;
+    line-height: 3em;
+    text-align: center;
+  }
+
+  .Hidden a
+  {
+    display: none;
   }
 
   .flexContainer
