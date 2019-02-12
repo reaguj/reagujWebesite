@@ -7,7 +7,6 @@
   </div>
 
   <label for="toggle">&#9776;</label>
-  <input type="checkbox" id="toggle"/>
 
     <div class="Options">
       <a href="index.php" id="home">Strona główna</a>

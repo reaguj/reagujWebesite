@@ -17,7 +17,7 @@
 	<meta charset="utf-8"/>
 	<title>O nas - #reaguj</title>
 
-    <link rel="stylesheet" href="css/aboutUs.css">
+  <link rel="stylesheet" href="css/aboutUs.css">
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/scrollbar.css">
 	<link rel="stylesheet" href="css/Home.css">
