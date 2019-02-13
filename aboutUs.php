@@ -72,7 +72,7 @@
           </div>
 	        <div class="slideTitle">
             <span class="underline">
-          	  Ratownik
+          	  Ratownicy
 	          </span>
 	        </div>
 	        <div class="Content Red flexContainer rightSide">
@@ -87,12 +87,6 @@
 	            <div class="RectangleTextContent">Siemka! Nazywam sie Paulina i jestem członkiem zespołu #reaguj. Na codzień jestem uśmiechniętą i zawsze chetną do pomocy dziewczyną. Moją pasją jest muzyka, śpiew oraz gotowanie i pieczenie. Bardzo dużą część swojego czasu wolnego poświęcam swoim przyjaciołom. Odkąd pamiętam uwielbiam pomagać ludziom, regularnie chodzę na różnego typu wolontariaty. Postanowiłam przyłączyć się do tego projektu, ponieważ żeby pomagać nie zawsze wystarczą same chęci, trzeba również wiedziec jak się do tego zabrać, co wcale nie jest takie trudne i postaramy się to udowodnić!</div></div>
 	        </div>
 
-      <div class="slideTitle">
-        <span class="underline">
-	        Funkcja
-        </span>
-      </div>
-
       <div class="Content Red flexContainer leftSide">
         <img src="img/aboutUs/OliwiaJóźwiak.jpg">
         <div class="content"><div class="RectangleTitle">
@@ -104,7 +98,7 @@
           </div>
       <div class="slideTitle">
         <span class="underline">
-	        Funkcja kwadratowa
+	        Programiści
         </span>
       </div>
 
@@ -118,11 +112,7 @@
         </div>
           <div class="RectangleTextContent">Skater, miłośnik mitologii nordyckiej i dobry przyjaciel. Zawsze staram się sumiennie wykonywać powierzone mi zadania. Jestem optymistycznym człowiekiem i uwielbiam nawiązywać kontakty z ludźmi. Codziennie na mojej twarzy widnieje szeroki uśmiech. Staram się zwalczać wszystkie przeszkody stojące mi na drodze do upragnionego celu. Jednym z moich licznych zainteresowań jest informatyka, dlatego postanowiłem, że pomogę przy pisaniu strony, na której właśnie jesteś. Liczę, że nasza ciężka praca przyniesie sukces i uda nam się zwalczyć "znieczulicę" jaka panuje wsród społeczeństwa.</div></div>
           </div>
-	        <div class="slideTitle">
-            <span class="underline">
-          	  Funkcja zawiła
-	          </span>
-	        </div>
+
 	        <div class="Content Red flexContainer leftSide">
 	          <img src="img/aboutUs/MarcelinaZietal.jpg">
 	           <div class="content">
@@ -134,11 +124,6 @@
               </div>
 	            <div class="RectangleTextContent">Nazywam się Marcelina. Jestem pozytywnie nastawiona do życia i zawsze chętnie pomagam innym. Bardzo lubię pisać programy komputerowe więc mogę tu nabyć trochę doświadczenia. Projekt jest dla mnie cennym przeżyciem ponieważ dzięki niemu mogę nie tylko sama pomóc innym ale również ich tego nauczyć.</div></div>
 	        </div>
-      <div class="slideTitle">
-        <span class="underline">
-	        Funkcja prosta
-        </span>
-      </div>
 
       <div class="Content Red flexContainer rightSide">
         <img src="img/aboutUs/ArekLenart.jpg">

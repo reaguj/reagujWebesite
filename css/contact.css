@@ -1,23 +1,23 @@
 
 .contactContent
 {
-	
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	height: 62.5vh;
 }
 
 .contactTitle
 {
-	
+
 	font-size: 25pt;
 	font-weight: 700;
 	margin: 30px 30px 30px 30px;
 }
 .contentTitle
 {
-	width: auto;
 	display: flex;
 	flex-direction: row;
 	margin:10px 10px 10px 10px;
