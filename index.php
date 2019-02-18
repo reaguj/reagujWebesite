@@ -170,7 +170,9 @@
 			&copy; 2018 #reaguj. Wszystkie prawa zastrzeżone
 		</div>
 	</div>
-
+  <?php
+      require "footer.php";
+     ?>
 </body>
 
 </html>
