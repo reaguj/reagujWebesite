@@ -352,11 +352,11 @@ footer
   .icons
   {
     display: flex;
-    font-size: 30pt;
+    font-size: 3.5em;
     color: var(--main-hicontrast-text-color);
     justify-content: space-evenly;
-    //align-items: center;
-    //align-content: center;
+    align-items: center;
+    align-content: center;
   }
 
   .InfoRectangle
