@@ -147,10 +147,39 @@
 				</div>
 			</div>
 	</div>
+<<<<<<< HEAD
 <?php
 	require "footer.php"
  ?>
 
+=======
+	<footer>
+		<div class="icons">
+			<div class="contactTile">
+				<i class="fab fa-instagram"></i>
+			</div>
+			<div class="contactTile">
+				<i class="fab fa-snapchat-square"></i>
+			</div>
+			<div class="contactTile">
+				<i class="fab fa-youtube"></i>
+			</div>
+			<div class="contactTile">
+				<i class="fas fa-comment-dots"></i>
+			</div>
+			<div class="contactTile">
+				<i class="fab fa-facebook-square"></i>
+			</div>
+		</div>
+		<div class="mail">kontakt.reaguj@gmail.com</div>
+		<div class="copyright">
+			&copy; 2018 #reaguj. Wszystkie prawa zastrzeżone
+		</div>
+	</div>
+  <?php
+      require "footer.php";
+     ?>
+>>>>>>> 6fff10ba63b12f1eb2f97d8516926d8deebb8d24
 </body>
 
 </html>
