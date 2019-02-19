@@ -16,7 +16,7 @@
       <a href="https://www.facebook.com/Reaguj.eu/"><i class="fab fa-facebook-square"></i></a>
     </div>
   </div>
-  <div class="mail">kontakt.reaguj@gmail.com</div>
+  <div class="mail">kontakt@reaguj.eu</div>
   <div class="copyright">
     &copy; 2018 #reaguj. Wszystkie prawa zastrzeżone
   </div>

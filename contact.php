@@ -44,11 +44,11 @@
 
  <div class="contactContent">
     <div class="contentTitle"><div class="contactTitle">Mail główny:</div>
-	<div class="textContainer Red">kontakt.reaguj@gmail.com</div></div>
+	<div class="textContainer Red">kontakt@reaguj.eu</div></div>
 	<div class="contentTitle"><div class="contactTitle">Mail dla partnerów:</div>
-<div class="textContainer Red">spam@reaguj.eu</div></div>
+<div class="textContainer Red">partners@reaguj.eu</div></div>
 	<div class="contentTitle"><div class="contactTitle">Możecie do nas pisać też na Facebook-u:</div>
-	<div class="textContainer Red">link</div></div>
+	<div class="textContainer Red"><a href="https://www.facebook.com/Reaguj.eu/">Kliknij tutaj</div></div>
  </div>
 
 
