@@ -1,7 +1,7 @@
 <footer>
   <div class="icons">
     <div class="contactTile">
-      <a href=""><i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/reaguj_/"><i class="fab fa-instagram"></i></a>
     </div>
     <!--<div class="contactTile Hidden">
       <a href=""><i class="fab fa-snapchat-square"></a>
