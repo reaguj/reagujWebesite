@@ -48,7 +48,7 @@
 	<div class="contentTitle"><div class="contactTitle">Mail dla partnerów:</div>
 <div class="textContainer Red">partners@reaguj.eu</div></div>
 	<div class="contentTitle"><div class="contactTitle">Możecie do nas pisać też na Facebook-u:</div>
-	<div class="textContainer Red"><a href="https://www.facebook.com/Reaguj.eu/">Kliknij tutaj</div></div>
+	<div class="textContainer Red"><a href="https://www.facebook.com/Reaguj.eu/">Kliknij tutaj</a></div></div>
  </div>
 
 
