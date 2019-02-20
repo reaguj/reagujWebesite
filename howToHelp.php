@@ -61,7 +61,7 @@
 
 <body>
 	<?php
-	  require "nav.php";
+	  require "const/nav.php";
 	 ?>
 
 	<div class="slide" id="NewsSlide">
@@ -88,7 +88,7 @@
 		?>
 	</div>
 	<?php
-	  require "footer.php";
+	  require "const/footer.php";
 	 ?>
 </body>
 </html>

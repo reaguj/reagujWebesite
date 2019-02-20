@@ -28,7 +28,7 @@
 
 <body>
 	<?php
-		require "nav.php";
+		require "const/nav.php";
 	?>
   <div class="flexContainer error">
     <img src="img/404/404.svg" alt=";-;" class="errorImg">
@@ -36,7 +36,7 @@
     <span>Wróć na <a href="index.php">stronę główną</a></span>
   </div>
 <?php
-		require "footer.php";
+		require "const/footer.php";
 	?>
 </body>
 

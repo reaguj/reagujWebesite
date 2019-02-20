@@ -29,7 +29,7 @@
 <body>
 
   <?php
-    require "nav.php";
+    require "const/nav.php";
    ?>
   <div class="slideTitle"><span class="underline">Jak się z nami skontaktować?</span></div>
 
@@ -44,7 +44,7 @@
 
 
 <?php
-  require "footer.php";
+  require "const/footer.php";
  ?>
 
 </body>

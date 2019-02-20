@@ -30,7 +30,7 @@
 <body>
 
 <?php
-  require "nav.php";
+  require "const/nav.php";
  ?>
 
 	<div id="Slides">
@@ -130,7 +130,7 @@
 
 	  </div>
     <?php
-      require "footer.php";
+      require "const/footer.php";
      ?>
 
 </body>
