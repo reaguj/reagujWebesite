@@ -6,7 +6,7 @@
 	<title>Aktualności - #reaguj</title>
 
 	<?php
-		require "scripts.php";
+		require "const/scripts.php";
 	?>
 
 	<meta name="description" content="Aktualności dotyczące naszej kampanii. Tutaj dowiesz się co się u nas dzieje ;)" />

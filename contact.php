@@ -3,7 +3,7 @@
 
 <head>
   <?php
-		require "scripts.php";
+		require "const/scripts.php";
 	?>
 
 

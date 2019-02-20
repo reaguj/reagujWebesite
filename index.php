@@ -1,6 +1,6 @@
 <?php
 
-	require_once "connect.php";
+	require_once "const/connect.php";
 
 	$connect = mysqli_connect($host,$db_user,$db_password,$db_name);
 
@@ -36,7 +36,7 @@
 <head>
 
 	<?php
-		require "scripts.php";
+		require "const/scripts.php";
 	?>
 	<meta charset="utf-8"/>
 	<title>Strona główna - #reaguj</title>
