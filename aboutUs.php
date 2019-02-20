@@ -42,7 +42,7 @@
 
 	<div id="Slides">
 			<div class="slide" id="WelcomeSlide">
-				<img src="img/aboutUs/jankowalski.jpeg" id="Background"/>
+				<img src="img/home/welcomeScreen.jpg" id="Background"/>
 				<div Class="Content">
 
 					<div class="crop"><img src="img/common/pulse2.svg" id="HeartLineArt"/></div>
