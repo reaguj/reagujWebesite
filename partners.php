@@ -13,7 +13,7 @@
 	<meta name="keywords" content="pierwsza pomoc, aktualności, newsy,#reaguj" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="icon" type="image/png" href="img/favicon.png">
 
     <link rel="stylesheet" href="css/aboutUs.css">
 	<link rel="stylesheet" href="css/common.css">

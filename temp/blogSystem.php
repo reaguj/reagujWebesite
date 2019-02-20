@@ -34,7 +34,7 @@
 	<meta name="description" content="Aktualności dotyczące naszej kampanii. Tutaj dowiesz się co się u nas dzieje ;)" />
 	<meta name="keywords" content="pierwsza pomoc, aktualności, newsy,#reaguj" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="icon" type="image/png" href="img/favicon.png">
 
 </head>
 
