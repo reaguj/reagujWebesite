@@ -25,9 +25,11 @@
 <html lang="pl">
 
 <head>
+	<?php
+		require "scripts.php";
+	?>
 	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 	<script src="js/readMore.js"></script>
-	<script src="cookie_agreement.js"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125728113-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];

@@ -2,6 +2,11 @@
 <html lang="pl">
 
 <head>
+
+	<?php
+		require "scripts.php";
+	?>
+
 	<meta charset="utf-8"/>
 	<title>Tak o nas mówią</title>
 	<meta name="description" content="Tutaj możecie zobaczyć co mówią o nas inni" />
@@ -10,11 +15,11 @@
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/Home.css">
 	<link rel="stylesheet" href="css/scrollbar.css">
-	
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;subset=latin-ext" rel="stylesheet">
-	
-	
+
+
 </head>
 <body>
 <?php
@@ -43,18 +48,18 @@
 					</span></div>
 					<div class="content">
 						<div class="RectangleTextContent">
-						Ostatnio mieliśmy okazję przedstawić nasz projekt w radiu eM. Była to dla nas wspaniała okazja, aby trafić do większej grupy odbiorców i rozpromować nasz projekt. Jak nam poszło? Posłuchajcie sami! 
+						Ostatnio mieliśmy okazję przedstawić nasz projekt w radiu eM. Była to dla nas wspaniała okazja, aby trafić do większej grupy odbiorców i rozpromować nasz projekt. Jak nam poszło? Posłuchajcie sami!
 						</div>
 						</div>
 						</div>
 	<?php
 	  require "footer.php";
-	 ?>		
-						
-		
-			
-			
-			
-			
+	 ?>
+
+
+
+
+
+
 </body>
 </html>

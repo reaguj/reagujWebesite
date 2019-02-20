@@ -25,6 +25,10 @@
 <html lang="pl">
 
 <head>
+
+	<?php
+		require "scripts.php";
+	?>
 	<meta charset="utf-8"/>
 	<title>Aktualności - #reaguj</title>
 	<meta name="description" content="Aktualności dotyczące naszej kampanii. Tutaj dowiesz się co się u nas dzieje ;)" />

@@ -35,17 +35,9 @@
 
 <head>
 
-	<script src="cookie_agreement.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125728113-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-125728113-1');
-	</script>
-
-
+	<?php
+		require "scripts.php";
+	?>
 	<meta charset="utf-8"/>
 	<title>Strona główna - #reaguj</title>
 
@@ -86,7 +78,7 @@
 			<div class="slide" id="YtSlide">
 				<div class="slideTitle"><span class="underline">Zobacz jak #reagować</span></div>
 				<div class="flexContainer flexInsideSlide">
-					<div Class="textContainer Red">Nie lękajmy się pomagać innym. To nie jest wcale skomplikowane, a może uratować czyjeś życie. Spójrzmy na przykładowe zachowanie podczas pierwszej pomocy:</div>
+					<div Class="textContainer Red">Nie lękajmy się pomagać innym. To nie jest wcale skomplikowane, a może uratować czyjeś życie. Film obok pokazuje prawidłowo Resuscytacje Krążeniowo oddechową, jedną z podstawowych akcji przy udzielaniu pierwszej pomocy przedmedycznej, osobom które nie oddychają, ani nie zachodzi akcja bicia serca.</div>
 					<iframe class="ytVideo" width="1120" src="https://www.youtube.com/embed/xvIO9t0MxIM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
@@ -140,7 +132,7 @@
 				<div class="slideTitle"><span class="underline">Epidemia znieczulicy</span></div>
 				<div class="flexContainer flexInsideSlide">
 					<span class="EpidemyTextContent">
-						Bardzo duża ilość osób nie pomaga innym w potrzebie. Często wynika to z tak zwanej "znieczulicy". Ludzie często omijają potrzebujących szerokim łukiem. Spowodowane jest to m.in. brakiem znajomości podstawowych zasad pierwszej pomocy. Naszym celem jest walka z takim zachowaniem.					</span>
+						Bardzo duża ilość osób nie pomaga innym w potrzebie. Często wynika to z tak zwanej "znieczulicy". Ludzie często omijają potrzebujących szerokim łukiem. Spowodowane jest to m.in. brakiem znajomości podstawowych zasad pierwszej pomocy, bądź brakiem pewności siebie. Naszym celem jest walka z takim zachowaniem, dlatego przedstawiane przez nas treści będą starały się zwiększyć pewność siebie naszych odbiorców, i przekaza podstawową wiedzę na temat przeprowadzania pierwszej pomocy przedmedycznej.					</span>
 					<div class="RectangularSideBar">
 						Nie bądź obojętny gdy inni wymagają twojej pomocy, bo i ty możesz kiedyś jej wymagać.
 					</div>

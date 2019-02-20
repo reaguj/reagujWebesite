@@ -4,7 +4,11 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Aktualności - #reaguj</title>
-	
+
+	<?php
+		require "scripts.php";
+	?>
+
 	<meta name="description" content="Aktualności dotyczące naszej kampanii. Tutaj dowiesz się co się u nas dzieje ;)" />
 	<meta name="keywords" content="pierwsza pomoc, aktualności, newsy,#reaguj" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -15,7 +19,7 @@
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/scrollbar.css">
 	<link rel="stylesheet" href="css/Home.css">
-	
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;subset=latin-ext" rel="stylesheet">
 
@@ -89,7 +93,7 @@
         </div>
           <div class="RectangleTextContent">Firma Z udzieliła nam sponsoringu w urządzeniach i akcesoriach ratowniczych, jak i przedmiotach do rozreklamowania naszego projektu. Firma Z zapewniła nam sponsoring kamer do nakręcenia filmów, jak i rzeczy potrzebnych do przeprowadzenia prelekcji. Projekt nasz nie rozwinął by się bez udzielonej przez Firmę Z pomocy.  </div></div>
           </div>
-      
+
 
 	  </div>
 	<?php
