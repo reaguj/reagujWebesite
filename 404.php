@@ -33,7 +33,7 @@
   <div class="flexContainer error">
     <img src="img/404/404.svg" alt=";-;" class="errorImg">
     <h1>Niestety, tym razem nie umiemy zareagować :(</h1>
-    <span>Wróć na <a href="index.php">stronę główną</a></span>
+    <a href="index.php"><span>Kliknij tutaj ,aby wróćić na stronę główną</span></a>
   </div>
 <?php
 		require "const/footer.php";
