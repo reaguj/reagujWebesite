@@ -10,7 +10,7 @@ function createDiv(){
     var bodytag = document.getElementsByTagName('body')[0];
     var div = document.createElement('div');
     div.setAttribute('id','cookie-law');
-    div.innerHTML = '<p>Lorem ipsum zgadzasz się na ciastka bo używasz strony dzięki <a href="/privacy-cookies-policy/" rel="nofollow" title="Privacy &amp; Cookies Policy">privacy and cookies policy</a>. <a class="close-cookie-banner" href="javascript:void(0);" onclick="removeMe();"><span>X</span></a></p>';
+    div.innerHTML = '<p>Korzystając z tej strony zgadzasz się na wykorzystywanie plików cookies <a href="/privacy-cookies-policy/" rel="nofollow" title="Privacy &amp; Cookies Policy">Regulamin ciasteczek</a>. <a class="close-cookie-banner" href="javascript:void(0);" onclick="removeMe();"><span>X</span></a></p>';
  // Be advised the Close Banner 'X' link requires jQuery
 
     // bodytag.appendChild(div); // Adds the Cookie Law Banner just before the closing </body> tag

@@ -30,15 +30,6 @@
 	?>
 	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 	<script src="js/readMore.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125728113-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-125728113-1');
-	</script>
-
 
 	<meta charset="utf-8"/>
 	<title>Aktualności - #reaguj</title>

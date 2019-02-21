@@ -1,4 +1,4 @@
-<script src="cookie_agreement.js"></script>
+<script src="js/cookie_agreement.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120627207-1">
 
