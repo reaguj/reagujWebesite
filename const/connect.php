@@ -1,7 +1,7 @@
 <?php
 
-	$host="localhost";
-	$db_user="root";
-	$db_password="";
-	$db_name="reagujposty";
+	$host="https://az-serwer1838071.online.pro/sql/";
+	$db_user="00140028_blogposts";
+	$db_password="ZAQ!2wsxCDE#4rfv";
+	$db_name="00140028_blogposts";
 ?>
