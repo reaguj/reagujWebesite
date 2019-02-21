@@ -76,7 +76,7 @@
 				$longDesc = $row['longDesc'];
 				$img = $row['img'];
 
-				$post = "<div class='Content Red'><img src='img/howToHelp/$img'".' onerror="this.src='."'".'RKO.jpg'."'".'"'."/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content'><p class='shortDesc'>$shortDesc<span class='showMore'> pokaż więcej</span></p><p class='longDesc'>$longDesc<span class='showLess'> pokaż mniej</span></p></div></div>";
+				$post = "<div class='Content Red'><img src='img/howToHelp/$img'".' onerror="this.src='."'".'img/howToHelp/RKO.jpg'."'".'"'."/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content'><p class='shortDesc'>$shortDesc<span class='showMore'> pokaż więcej</span></p><p class='longDesc'>$longDesc<span class='showLess'> pokaż mniej</span></p></div></div>";
 
 				echo $post;
 
