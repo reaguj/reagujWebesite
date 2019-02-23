@@ -3,7 +3,7 @@ $(document).ready(function(){
   var longDesc =document.getElementsByClassName('longDesc');
 
   var showMore =document.getElementsByClassName('showMore');
-  var showLess =document.getElementsByClassName('longDesc');
+  var showLess =document.getElementsByClassName('showLess');
 
   for(let i=0; i<shortDesc.length; i++)
   {
