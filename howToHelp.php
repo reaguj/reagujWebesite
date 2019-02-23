@@ -62,6 +62,7 @@
 			for($i=$postsNumber; $i>0; $i--)
 			{
 				$row= mysqli_fetch_assoc($result);
+				$id= $row['id'];
 				$title= $row['title'];
 				$shortDesc=$row['shortDesc'];
 				$longDesc = $row['longDesc'];
