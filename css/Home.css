@@ -94,15 +94,25 @@
 
 #NewsSlide > .Content
 {
+
   text-align: justify;
   color: #ffffff;
   border-radius: 25px;
   max-width: 40%;
-  margin: 25px 30% 0 30%;
+  margin: 0 0 0 50px;
+}
+#NewsSlide
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-around;
+  justify-content: space-evenly;
 }
 .transition
 {
-  transition: width 1s, height 1s;
+  transition: all 1s;
 }
 #NewsSlide>.Content>.content
 {

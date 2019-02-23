@@ -55,7 +55,7 @@
 	  require "const/nav.php";
 	 ?>
 
-	<div class="slide" id="NewsSlide">
+	<div class="slide HelpFlex" id="NewsSlide">
 		<?php
 		if($postsNumber>=1)
 		{
@@ -68,8 +68,7 @@
 				$longDesc = $row['longDesc'];
 				$img = $row['img'];
 
-				$post = "<div class='Content Red transition'><img src='img/howToHelp/$img' onerror=".'"this.src='."'".'img/howToHelp/RKO.jpg'."'".'"'."/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content transition'><div class='shortDesc transition'>$shortDesc...<button class='showMore transition'> Pokaż więcej</button></div><div class='longDesc'>$longDesc<button class='showLess'> Pokaż mniej</button></div></div></div>";
-				$post = "<div class='Content Red transition'><img src='img/howToHelp/$img' onerror=".'"this.src='."'".'img/howToHelp/RKO.jpg'."'".'"'."/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content transition'><div id='$id' class='shortDesc transition'>$shortDesc...<button id='$id' class='showMore' onclick='hideOrShow($id)'> Pokaż więcej</button></div><div id='long$id' class='longDesc transition'>$longDesc<button class='showLess' onclick='hideOrShow('$id')'> Pokaż mniej</button></div></div></div>";
+				$post = "<div class='Content Red transition'><img src='img/howToHelp/$img' onerror=".'"this.src='."'".'img/howToHelp/RKO.jpg'."'".'"'."/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content transition'><div class='shortDesc transition'>$shortDesc...<button class='showMore'> Pokaż więcej</button></div><div class='longDesc transition'>$longDesc<button class='showLess'> Pokaż mniej</button></div></div></div>";
 
 				echo $post;
 
