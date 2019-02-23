@@ -100,6 +100,10 @@
   max-width: 40%;
   margin: 25px 30% 0 30%;
 }
+.transition
+{
+  transition: width 1s, height 1s;
+}
 #NewsSlide>.Content>.content
 {
   padding: 10px;

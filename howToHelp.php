@@ -38,7 +38,7 @@
 	<meta name="keywords" content="pierwsza pomoc, aktualności, newsy,#reaguj" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="icon" type="image/png" href="img/favicon.png">
 
 	<link rel="stylesheet" href="css/Home.css">
 	<link rel="stylesheet" href="css/common.css">
@@ -67,7 +67,8 @@
 				$longDesc = $row['longDesc'];
 				$img = $row['img'];
 
-				$post = "<div class='Content Red'><img src='img/howToHelp/$img' onerror=".'"this.src='."'".'img/howToHelp/RKO.jpg'."'".'"'."/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content'><div class='shortDesc'>$shortDesc<span class='showMore'> pokaż więcej</span></div><div class='longDesc'>$longDesc<span class='showLess'> pokaż mniej</span></div></div></div>";
+				$post = "<div class='Content Red transition'><img src='img/howToHelp/$img' onerror=".'"this.src='."'".'img/howToHelp/RKO.jpg'."'".'"'."/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content transition'><div class='shortDesc transition'>$shortDesc...<button class='showMore transition'> Pokaż więcej</button></div><div class='longDesc'>$longDesc<button class='showLess'> Pokaż mniej</button></div></div></div>";
+				$post = "<div class='Content Red transition'><img src='img/howToHelp/$img' onerror=".'"this.src='."'".'img/howToHelp/RKO.jpg'."'".'"'."/><div class='RectangleTitle'><span class='underline'>$title</span></div><div class='content transition'><div id='$id' class='shortDesc transition'>$shortDesc...<button id='$id' class='showMore' onclick='hideOrShow($id)'> Pokaż więcej</button></div><div id='long$id' class='longDesc transition'>$longDesc<button class='showLess' onclick='hideOrShow('$id')'> Pokaż mniej</button></div></div></div>";
 
 				echo $post;
 

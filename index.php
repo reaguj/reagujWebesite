@@ -132,7 +132,7 @@
 				<div class="slideTitle"><span class="underline">Epidemia znieczulicy</span></div>
 				<div class="flexContainer flexInsideSlide">
 					<span class="EpidemyTextContent">
-						Bardzo duża ilość osób nie pomaga innym w potrzebie. Często wynika to z tak zwanej "znieczulicy". Ludzie często omijają potrzebujących szerokim łukiem. Spowodowane jest to m.in. brakiem znajomości podstawowych zasad pierwszej pomocy, bądź brakiem pewności siebie. Naszym celem jest walka z takim zachowaniem, dlatego przedstawiane przez nas treści będą starały się zwiększyć pewność siebie naszych odbiorców, i przekaza podstawową wiedzę na temat przeprowadzania pierwszej pomocy przedmedycznej.					</span>
+						Bardzo duża ilość osób nie pomaga innym w potrzebie. Często wynika to z tak zwanej "znieczulicy". Ludzie często omijają potrzebujących szerokim łukiem. Spowodowane jest to m.in. brakiem znajomości podstawowych zasad pierwszej pomocy, bądź brakiem pewności siebie. Naszym celem jest walka z takim zachowaniem, dlatego przedstawiane przez nas treści będą starały się zwiększyć pewność siebie naszych odbiorców, i przekażą podstawową wiedzę na temat przeprowadzania pierwszej pomocy przedmedycznej.					</span>
 					<div class="RectangularSideBar">
 						Nie bądź obojętny gdy inni wymagają twojej pomocy, bo i ty możesz kiedyś jej wymagać.
 					</div>
