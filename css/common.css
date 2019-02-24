@@ -176,7 +176,7 @@ div
 .underline
 {
   border-bottom: 4px solid var(--Red-color);
-  padding: 0 0 0 100px;
+  padding: 0 0 0 1vw;
 }
 
 .MenuBg
@@ -266,7 +266,7 @@ button
 }
 .contactTile
 {
-  transition: color 0.25s, background-color 0.25s;
+  transition: color 350ms;
 }
 .contactTile:hover
 {
@@ -354,7 +354,7 @@ footer
   .crop
   {
     display: block;
-    width: 85%;
+    width: 63vw;
     margin: 0 0 0 -20%;
   }
 

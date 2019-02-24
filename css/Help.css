@@ -1,0 +1,44 @@
+section
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-around;
+  justify-content: space-evenly;
+}
+
+section > .Content
+{
+
+  text-align: justify;
+  color: #ffffff;
+  border-radius: 25px;
+  max-width: 30vw;
+  margin: 2.5vh 0 !important;
+}
+
+section>.Content>.content
+{
+  padding: 10px;
+}
+section>.Content>img
+{
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+  height: 45vh;
+  border-radius: 25px 25px 0 0;
+}
+section>.Content>.RectangleTitle>.underline
+{
+  overflow: hidden;
+  height: 1em;
+  border-bottom: 4px solid var(--Yellow-color);
+}
+section>.Content>.RectangleTitle
+{
+  overflow: hidden;
+  height: 1em;
+  font-size:1vw; 
+}

@@ -44,6 +44,7 @@
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/news.css">
 	<link rel="stylesheet" href="css/scrollbar.css">
+	<link rel="stylesheet" href="css/Help.css">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;subset=latin-ext" rel="stylesheet">
@@ -55,7 +56,7 @@
 	  require "const/nav.php";
 	 ?>
 
-	<div class="slide HelpFlex" id="NewsSlide">
+	<section class="slide HelpFlex NewsSlideHelp" >
 		<?php
 		if($postsNumber>=1)
 		{
@@ -78,7 +79,7 @@
 			$connect->close();
 		}
 		?>
-	</div>
+	</section>
 	<?php
 	  require "const/footer.php";
 	 ?>
