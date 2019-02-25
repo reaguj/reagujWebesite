@@ -18,6 +18,6 @@
   </div>
   <div class="mail">kontakt@reaguj.eu</div>
   <div class="copyright">
-    &copy; 2018 #reaguj. Wszystkie prawa zastrzeżone
+    &copy; 2018 #reaguj. Wszystkie prawa zastrzeżone. Zrealizowane w ramach olimpiady Zwolnieni z Teorii.
   </div>
 </footer>
