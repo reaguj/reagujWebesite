@@ -125,7 +125,7 @@
             Arek Lenart
           </span>
         </div>
-          <div class="RectangleTextContent">Jestem sobie Arek. Lubię czytać ksiązki, słuchać metali i pomagać ludziom w potrzebie i daltego również tutaj jestem. Jestem początkującym informatykiem i również przez ten projekt chcę dostać nowe doświadczenie i doznać nowych wyzwań.</div></div>
+          <div class="RectangleTextContent">Jestem sobie Arek. Lubię czytać ksiązki, słuchać metali i pomagać ludziom w potrzebie i dlatego również tutaj jestem. Jestem początkującym informatykiem i również przez ten projekt chcę dostać nowe doświadczenie i doznać nowych wyzwań.</div></div>
           </div>
 
 	  </div>
