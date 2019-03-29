@@ -1,7 +1,7 @@
 <footer>
   <div class="icons">
     <div class="contactTile">
-      <a href="https://www.instagram.com/reaguj_/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/reaguj/"><i class="fab fa-instagram"></i></a>
     </div>
     <!--<div class="contactTile Hidden">
       <a href=""><i class="fab fa-snapchat-square"></a>
@@ -18,6 +18,6 @@
   </div>
   <div class="mail">kontakt@reaguj.eu</div>
   <div class="copyright">
-    &copy; 2018 #reaguj. Wszystkie prawa zastrzeżone. Zrealizowane w ramach olimpiady Zwolnieni z Teorii.
+    &copy; 2019 #reaguj. Wszystkie prawa zastrzeżone. Zrealizowane w ramach olimpiady Zwolnieni z Teorii.
   </div>
 </footer>
