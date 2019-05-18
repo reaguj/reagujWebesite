@@ -1,0 +1,39 @@
+
+.contactContent
+{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contactTitle
+{
+
+	font-size: 25pt;
+	font-weight: 700;
+	margin: 30px 30px 30px 30px;
+	padding: 10px;
+}
+.contentTitle
+{
+	display: flex;
+	flex-direction: row;
+	margin:10px 10px 10px 10px;
+}
+
+@media only screen and (max-width:900px)
+{
+
+.contentTitle
+{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+
+}
+	
